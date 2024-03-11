@@ -35,6 +35,9 @@ body{
     h6{
         font-size: 18px;
     }
+    @media (max-width: 1200px) {
+        background-image: none;
+    }
 }
 .footer-li{
     padding-left: 0;

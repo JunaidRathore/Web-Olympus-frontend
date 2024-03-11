@@ -4,7 +4,12 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <Container>
-      <Box className="footer">
+      <Box
+        className="footer"
+        sx={{
+          pt: 5,
+        }}
+      >
         <Grid container spacing={2}>
           <Grid item xl={3} lg={3} md={6} sm={12} xs={12}>
             <Box>

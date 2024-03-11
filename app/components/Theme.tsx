@@ -34,10 +34,12 @@ const Theme = ({
               borderColor: "#aaa",
             },
             "&:hover": {
-              border: "0.1px solid #aaa",
+              "& fieldset": {
+                borderColor: "#aaa !important",
+              },
             },
             "&:focus": {
-              border: "1px solid #aaa",
+              borderColor: "#aaa !important",
             },
             borderRadius: "1px",
           },
