@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { Container, Grid, Box, Typography, Divider } from "@mui/material";
+import { Container, Grid, Box, Typography } from "@mui/material";
 import Image from "next/image";
 const Footer = () => {
   return (

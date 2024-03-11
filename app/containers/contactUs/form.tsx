@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Box, Button } from "@mui/material";
 import TextField from "@mui/material/TextField";
@@ -6,15 +7,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 const Form = () => {
   return (
-    <Box
-      component="form"
-      //   sx={{
-      //     "& > :not(style)": { m: 1, width: "25ch" },
-      //   }}
-      noValidate
-      autoComplete="off"
-      margin="40px 0"
-    >
+    <Box component="form" noValidate autoComplete="off" margin="40px 0">
       <Box
         sx={{
           my: 2,

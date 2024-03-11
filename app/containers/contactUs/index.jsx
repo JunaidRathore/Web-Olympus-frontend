@@ -1,13 +1,12 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Form from "./form";
 import { Container, Grid, Box, Typography } from "@mui/material";
+
+import Form from "./form";
 const ContactUsIndex = () => {
   return (
     <>
-      <Header />
       <Container>
         <Grid container spacing={2} margin={{ lg: "80px 0", xs: "20px 0" }}>
           <Grid
@@ -61,7 +60,6 @@ const ContactUsIndex = () => {
           </Grid>
         </Grid>
       </Container>
-      <Footer />
     </>
   );
 };
