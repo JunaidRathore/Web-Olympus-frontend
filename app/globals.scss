@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Jakarta';
+    src: url('/fonts/PlusJakartaSans.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Ganora';
+    src: url('/fonts/Ganora.otf') format('truetype');
+  }
+body{
+    font-family: "Jakarta", sans-serif;
+    background-color: #181818;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    margin: 0;
+}
+.font-jakarta{
+    font-family: "Jakarta", sans-serif;
+}
+.outline-btn{
+    transition: 0.2s;
+    border: 1px solid #fff;
+    &:hover{
+    border: 1px solid #fff;
+    }
+    display: flex;
+    column-gap: 6px;
+}
+.c-white{
+    color:#fff !important
+}
+.footer{
+    background-image: url("/images/footer-bg.png");
+    background-position-x: center;
+    h6{
+        font-size: 18px;
+    }
+}
+.footer-li{
+    padding-left: 0;
+    list-style: none;
+    color: #fff;
+    li{
+        padding-bottom: 10px;
+        color: #AAAAAA;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover{
+            color:#fff
+        }
+    }
+}
+.c-grey{
+    color: #AAAAAA;
+}
+.text-center{
+    text-align: center;
+}
+.contact-image{
+    width: auto !important;
+    height: auto;
+    
+}
+.contact-form{
+    h3{
+        font-family: "Ganora", sans-serif !important;
+    }
+    p{
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .MuiFormLabel-root{
+        color:#fff;
+        font-size: 18px;
+    }
+    input{
+        border-color: #AAAAAA;
+        &::-webkit-input-placeholder{
+            color:"#aaaaaa"
+        }
+    }
+    .footer-btn {
+        border: 1px solid #AAAAAA;
+        border-radius: 1px;
+        width: 100%;
+        padding: 12px 0;
+    }
+}
